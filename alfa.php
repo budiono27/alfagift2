@@ -25,7 +25,7 @@ $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
 echo "| Welcome to ALFAGIFT ACCOUNT GENERATOR!! \n";
-echo "| Simpel script by Arie \n";
+echo "| Simpel script by ARIS BUDIONO \n";
 echo "| Wa 085782946968 \n";
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
@@ -94,7 +94,7 @@ if($status_login !== "00"){
 
 
 $url_daftar = "https://api.alfagift.id/v1/account/member/create";
-$random_name = "Arie"." ".substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 4);
+$random_name = "AriS BUDI"." ".substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 1);
 $random_email = substr(str_shuffle("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 7);
 $random_name = "\"$random_name\"";
 $random_email = "\"$random_email@gmail.com\"";
