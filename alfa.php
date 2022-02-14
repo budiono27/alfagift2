@@ -25,8 +25,8 @@ $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
 echo "| Welcome to ALFAGIFT ACCOUNT GENERATOR!! \n";
-echo "| Simpel script by Arie \n";
-echo "| Wa 085782946968 \n";
+echo "| Simpel script by ARIS BUDI \n";
+echo "| Wa TAHASIA EU \n";
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
@@ -53,7 +53,7 @@ $header_otp = array(
     "accept-language: id",
     "versionname: 4.0.30",
     "versionnumber: 403016",
-    "devicemodel: Xiaomi Redmi Note 8",
+    "devicemodel: Xiaomi Redmi Note 10 Pro",
     "packagename: com.alfamart.alfagift",
     "signature: 6E:41:03:61:A5:09:55:05:B6:84:84:C9:75:0B:89:56:5D:1D:41:C7",
     "latitude: 0.0",
